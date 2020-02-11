@@ -1,0 +1,25 @@
+.description{
+    min-height: 619px;
+    padding: 51px 0 57px 0;
+    &__headerSup{
+        color: #2e2e2e;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 23px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    hr{
+        width: 148px;
+        border: 1px solid red;
+        margin: 20px auto 17px auto;
+        border-top: none;
+    }
+    &__headerSub{
+        color: #2e2e2e;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+    }
+}
