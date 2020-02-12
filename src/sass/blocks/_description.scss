@@ -11,7 +11,7 @@
     }
     hr{
         width: 148px;
-        border: 1px solid red;
+        border: 1px solid $main-color;
         margin: 20px auto 17px auto;
         border-top: none;
     }
@@ -35,7 +35,7 @@
     }
     &__header{
         line-height: 18px;
-        color: #ec644b;
+        color: $main-color;
         font-size: 18px;
         font-weight: 700;
         margin-top: 28px;
