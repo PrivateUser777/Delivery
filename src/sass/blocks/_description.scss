@@ -22,4 +22,30 @@
         line-height: 24px;
         text-align: center;
     }
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 37px;
+    }
+    &__item{
+        width: 360px;
+        img{
+            width: 100%;
+        }
+    }
+    &__header{
+        line-height: 18px;
+        color: #ec644b;
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 28px;
+        text-align: center;
+    }
+    &__descr{
+        margin-top: 16px;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        text-align: justify;
+    }
 }

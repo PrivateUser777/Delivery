@@ -1,0 +1,28 @@
+.agent{
+    min-height: 342px;
+    background: url('../img/Fons/agentFon.png') center (center/cover) no-repeat;
+    padding: 58px 0 75px 0;
+    &__icon{
+        display: block;
+        margin: 0 auto;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+        padding: 25px;
+    }
+    &__header{
+        color: #ffffff;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 23px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    &__descr{
+        margin-top: 22px;
+        text-align: center;
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 27px;
+    }
+}
