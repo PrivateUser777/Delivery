@@ -1,0 +1,29 @@
+.managers{
+    min-height: 342px;
+    background: url('../img/Fons/managersFon.png') center (center/cover) no-repeat;
+    padding: 58px 0 76px 0;
+    &__icon{
+        display: block;
+        margin: 0 auto;
+        width: 102px;
+        border: 1px solid #ffffff;
+        padding: 20px;
+        border-radius: 100%;
+    }
+    &__header{
+        color: #ffffff;
+        margin-top: 20px;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 23px;
+        text-align: center;
+    }
+    &__descr{
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 27px;
+        margin-top: 18px;
+        text-align: center;
+    }
+}
