@@ -10,6 +10,9 @@
     text-transform: uppercase;
     border: none;
     border-radius: 30px;
+    animation-name: button-btn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
     &_settings{
         display: block;
         margin: 0 auto;

@@ -1,0 +1,35 @@
+@keyframes promo-hr{
+    from{
+        width: 500px;
+    }
+    50%{
+        width: 50px;
+    }
+    to{
+        width: 500px;
+    }
+}
+
+@keyframes button-btn{
+    from{
+        box-shadow: 0 0 3px #ec644b;
+    }
+    50%{
+        box-shadow: 0 0 30px #ec644b;
+    }
+    to{
+        box-shadow: 0 0 3px #ec644b;
+    }
+}
+
+@keyframes consultation-icon{
+    from{
+        transform: scale(0.8);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(0.8);
+    }
+}

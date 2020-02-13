@@ -42,7 +42,12 @@
 
     }
     hr{
-        width: 388px;
+        width: 500px;
+    }
+    &_animated{
+        animation-name: promo-hr;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
     }
     
     &__wrapper{

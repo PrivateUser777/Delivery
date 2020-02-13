@@ -16,6 +16,9 @@
         padding: 20px;
         border: 1px solid $main-color;
         margin-top: 20px;
+        animation-name: consultation-icon;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
     }
     &__form{
         text-align: center;
