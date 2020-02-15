@@ -1,0 +1,70 @@
+.reviews{
+    min-height: 470px;
+    padding: 51px 0 65px 0;
+    position: relative;
+    &__headerSup{
+        color: #2e2e2e;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 23px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    hr{
+        margin: 25px auto 17px auto;
+        width: 750px;
+        border: 1px solid $main-color;
+        animation-name: line-hr;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+    &__headerSub{
+        color: #2e2e2e;
+        font-size: 21px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+    }
+    &__image{
+        width: 114px;
+        margin: 0 auto;
+        border-radius: 100%;
+    }
+    &__wrapper{
+        margin: 31px auto 0 auto;
+        text-align: center;
+    }
+    &__descr{
+        color: #3a3a3a;
+        line-height: 22.01px;
+        font-size: 18px;
+        font-weight: 700;
+        margin-top: 19px;
+    }
+    &__taext{
+        margin: 0 auto;
+        text-align: justify;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        margin-top: 10px;
+        width: 600px;
+        text-align: center;
+    }
+}
+.slick-next{
+    position: absolute;
+    top: 23%;
+    right: 42%;
+    z-index: 1;
+    border: none;
+    background-color: transparent;
+}
+.slick-prev{
+    position: absolute;
+    top: 23%;
+    left: 42%;
+    z-index: 1;
+    border: none;
+    background-color: transparent;
+}

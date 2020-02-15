@@ -33,3 +33,27 @@
         transform: scale(0.8);
     }
 }
+
+@keyframes line-hr{
+    from{
+        width: 750px;
+    }
+    50%{
+        width: 0;
+    }
+    to{
+        width: -750px;
+    }
+}
+
+@keyframes header-logo{
+    from{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}

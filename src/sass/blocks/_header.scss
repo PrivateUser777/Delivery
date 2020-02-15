@@ -3,6 +3,9 @@
     align-items: center;
     img{
         width: 96px;
+        animation-name: header-logo;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
     }
     &__items{
         display: flex;

@@ -10,10 +10,12 @@
         text-align: center;
     }
     hr{
-        width: 148px;
+        width: 750px;
         border: 1px solid $main-color;
         margin: 20px auto 17px auto;
-        border-top: none;
+        animation-name: line-hr;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
     }
     &__headerSub{
         color: #2e2e2e;

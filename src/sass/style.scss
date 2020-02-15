@@ -1,6 +1,7 @@
 @import 'libs/bootstrap-reboot.min';
 @import 'base/_animations';
 @import 'libs/animate';
+@import 'libs/slick';
 
 *{
     margin: 0;
@@ -17,6 +18,14 @@ h1,h2,h3{
     margin: 0 auto;
 }
 
+.scrollup{
+    position: fixed;
+    display: none;
+    top: 20px;
+    right: 20px;
+    width: 55px;
+}
+
 @import 'base/variables';
 @import 'blocks/promo';
 @import 'blocks/header';
@@ -28,7 +37,10 @@ h1,h2,h3{
 @import 'blocks/consultation';
 @import 'blocks/managers';
 @import 'blocks/workus';
+@import 'blocks/_reviews';
 @import 'blocks/feedback';
 @import 'blocks/map';
-@import 'blocks/_footer';
+@import 'blocks/footer';
+@import 'blocks/modals';
+@import 'blocks/forms';
 

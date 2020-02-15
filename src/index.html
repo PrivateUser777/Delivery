@@ -9,26 +9,26 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <section class="promo">
+    <section class="promo" id = "promo">
         <div class="container">
 
             <header class="header">
                 <img src="img/Logo/logoHeader.png" alt="logo">
                 <div class="header__wrapper">
                     <ul class="header__items">
-                        <li><a href="#">Преимущества</a></li>
-                        <li><a href="#">Наша работа</a></li>
-                        <li><a href="#">Цены</a></li>
-                        <li><a href="#">Схема работы</a></li>
-                        <li><a href="#">Отзывы</a></li>
-                        <li><a href="#">Контакты</a></li>
+                        <li><a href="#advantages">Преимущества</a></li>
+                        <li><a href="#description">Наша работа</a></li>
+                        <li><a href="#prices">Цены</a></li>
+                        <li><a href="#workus">Схема работы</a></li>
+                        <li><a href="#reviews">Отзывы</a></li>
+                        <li><a href="#feedback">Контакты</a></li>
                     </ul>
                 </div>
                 <div class="header__contacts">
                     <div class="header__label">Есть вопросы?</div>
                     <div class="header__phone"><a href="tel:89264230100">+7 (926) 423 01 00</a></div>
                 </div>
-                <button class="button">Перезвоните мне</button>
+                <button data-modal = "consultation" class="button">Перезвоните мне</button>
             </header>
 
             <div class="promo__label">Global Opt - логистика полного цикла из Китая в Россию</div>
@@ -57,11 +57,11 @@
                     <div class="promo__descr">Экспресс доставка 1-2 дня из Гуанчжоу в Москву от 25$/кг</div>
                 </div>
             </div>
-            <button class="button button_settings">Получить расчет</button>
+            <button data-modal = "consultation" class="button button_settings">Получить расчет</button>
         </div>
     </section>
 
-    <section class="advantages">
+    <section class="advantages" id = "advantages">
         <div class="container">
             <h2 class="advantages__header">Преимущества работы с GlobalOpt</h2>
         
@@ -126,7 +126,7 @@
         </div>
     </section>
 
-    <section class="description">
+    <section class="description" id = "description">
         <div class="container">
             <h2 class="description__headerSup">Наша работа - больше чем просто доставка</h2>
             <hr>
@@ -165,7 +165,7 @@
         </img>
     </section>
 
-    <section class="prices">
+    <section class="prices" id = prices>
         <div class="container">
             <h2 class="prices__headerSup">Цены на любой вариант доставки</h2>
             <hr>
@@ -178,28 +178,28 @@
                     <img src="img/Icons/Prices/Icon1.png" alt="Icon1">
                     <div class="prices__descr">Доставка 35-50 дней<br><span>от 0,3$ за 1 кг</span></div>
                     <div class="prices__text">Морские перевозки грузов из Китая в Россию за 35 дней с прохождением таможни </div>
-                    <button class = "button">Подробнее</button>
+                    <button data-modal = "button" class = "button">Подробнее</button>
                 </div>
                 <div class="prices__item fadeInUpBig wow" data-wow-duration = "1.5s" data-wow-offset = "150" data-wow-delay = "0.4s">
                     <h3>Ж/Д доставка</h3>
                     <img src="img/Icons/Prices/Icon2.png" alt="Icon2">
                     <div class="prices__descr">Доставка 15-28 дней<br><span>от 1$ за 1 кг</span></div>
                     <div class="prices__text">ЖД перевозки грузов из Китая в Россию от 2 недель с прохождением таможни</div>
-                    <button class = "button">Подробнее</button>
+                    <button data-modal = "button" class = "button">Подробнее</button>
                 </div>
                 <div class="prices__item fadeInUpBig wow" data-wow-duration = "1.5s" data-wow-offset = "150" data-wow-delay = "0.8s">
                     <h3>Автодоставка</h3>
                     <img src="img/Icons/Prices/Icon3.png" alt="Icon1">
                     <div class="prices__descr">Доставка 12-20 дня<br><span>от 1$ за 1 кг</span></div>
                     <div class="prices__text">Автоперевозки грузов из Китая в Россию от 2 недель с прохождением таможни</div>
-                    <button class = "button">Подробнее</button>
+                    <button data-modal = "button" class = "button">Подробнее</button>
                 </div>
                 <div class="prices__item fadeInUpBig wow" data-wow-duration = "1.5s" data-wow-offset = "150" data-wow-delay = "1.2s">
                     <h3>Авиа доставка</h3>
                     <img src="img/Icons/Prices/Icon1.png" alt="Icon4">
                     <div class="prices__descr">Доставка 1-12 дней<br><span>от 6$ за 1 кг</span></div>
                     <div class="prices__text">Авиаперевозки грузов из Китая в Россию до 2 недель с прохождением таможни</div>
-                    <button class = "button">Подробнее</button>
+                    <button data-modal = "button" class = "button">Подробнее</button>
                 </div>
             </div>
         </div>
@@ -226,41 +226,41 @@
         </div>
     </section>
 
-    <section class="workus">
+    <section class="workus" id = "workus">
         <div class="container">
             <h2 class="workus__header">Схема работы с нами</h2>
             <div class="workus__wrapper">
-                <div class="workus__item">
+                <div class="workus__item fadeInDownBig wow">
                     <img src="img/Icons/Workus/Icon1.png" alt="Icon1" class="workus__icon">
                     <div class="workus__descr">Заявка</div>
                     <div class="workus__text">Вы оставляете заявку на нашем сайте или звоните нам</div>
                 </div>
-                <div class="workus__item">
+                <div class="workus__item fadeInDownBig wow" data-wow-delay = "0.3s">
                     <img src="img/Icons/Workus/Icon2.png" alt="Icon2" class="workus__icon">
                     <div class="workus__descr">Аналитика доставки</div>
                     <div class="workus__text">Мы просчитываем варианты доставки Вашего груза</div>
                 </div>
-                <div class="workus__item">
+                <div class="workus__item fadeInDownBig wow" data-wow-delay = "0.6s">
                     <img src="img/Icons/Workus/Icon3.png" alt="Icon3" class="workus__icon">
                     <div class="workus__descr">Договор</div>
                     <div class="workus__text">Заключаем с Вами договор о поставке груза из Китая</div>
                 </div>
-                <div class="workus__item">
+                <div class="workus__item fadeInDownBig wow" data-wow-delay = "0.9s">
                     <img src="img/Icons/Workus/Icon4.png" alt="Icon4" class="workus__icon">
                     <div class="workus__descr">Доставка на наш склад</div>
                     <div class="workus__text">Связываемся с Вашим поставщиком в Китае и договариваемся о доставке груза на наш склад</div>
                 </div>
-                <div class="workus__item">
+                <div class="workus__item fadeInDownBig wow" data-wow-delay = "1.2s">
                     <img src="img/Icons/Workus/Icon5.png" alt="Icon5" class="workus__icon">
                     <div class="workus__descr">Проверка груза</div>
                     <div class="workus__text">Мы проверяем, собираем и упаковываем перед отправкой Ваш груз на своём складе</div>
                 </div>
-                <div class="workus__item">
+                <div class="workus__item fadeInDownBig wow" data-wow-delay = "1.5s">
                     <img src="img/Icons/Workus/Icon6.png" alt="Icon6" class="workus__icon">
                     <div class="workus__descr">Доставка груза</div>
                     <div class="workus__text">Мы перевозим ваш груз до места назначения и производим таможенную очистку</div>
                 </div>
-                <div class="workus__item">
+                <div class="workus__item fadeInDownBig wow" data-wow-delay = "1.8s">
                     <img src="img/Icons/Workus/Icon7.png" alt="Icon7" class="workus__icon">
                     <div class="workus__descr">Оплата</div>
                     <div class="workus__text">Оплачиваете доставку груза при получении</div>
@@ -269,13 +269,43 @@
         </div>
     </section>
 
-    <section class="reviews">
+    <section class="reviews" id = "reviews">
         <div class="container">
-            
+            <h2 class="reviews__headerSup">отзывы наших клиентов</h2>
+            <hr>
+            <div class="reviews__headerSub">Мы всегда стараемся помочь клиентам, что бы они обращались к нам снова</div>
+        
+            <div class="reviews__items">
+                <div class="reviews__wrappers">
+                    <div class="reviews__wrapper ">
+                        <img class = "reviews__image" src="img/Img/Reviews/Img1.jpg" alt="Img1">
+                        <div class="reviews__descr">Атабиев Ризван</div>
+                        <div class="reviews__text">
+                            Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставлял через компанию уже много раз, от расходных материалов для отеля, до больших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании
+                        </div>
+                    </div>
+        
+                    <div class="reviews__wrapper">
+                        <img class = "reviews__image" src="img/Img/Reviews/Img2.jpg" alt="Img1">
+                        <div class="reviews__descr">Бельтоева Зинаида</div>
+                        <div class="reviews__text">
+                            Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставляла через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании
+                        </div>
+                    </div>
+        
+                    <div class="reviews__wrapper ">
+                        <img class = "reviews__image" src="img/Img/Reviews/Img3.jpg" alt="Img1">
+                        <div class="reviews__descr">Атабиев Рамзан</div>
+                        <div class="reviews__text">
+                            Хочу рассказать о компании Global Opt. Самое главное что меня радует, это быстрый поиск и анализ определенного товара. Доставлял через компанию уже много раз, от расходных материалов для отеля, ло дольших партий детской одежды. Буду продолжать пользтваьбся услугами даной компании
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section class="feedback">
+    <section class="feedback" id = "feedback">
         <div class="container">
             <div class="feedback__wrapper">
                 <div class="feedback__header">
@@ -299,27 +329,46 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4491.809124050399!2d37.62641489068875!3d55.74278719958617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc3c31f007%3A0x793f259fa68bf25c!2z0JzQtdGC0YDQviDQndC-0LLQvtC60YPQt9C90LXRhtC60LDRjw!5e0!3m2!1sru!2sru!4v1581528906083!5m2!1sru!2sru"  frameborder="0" style="border:0;" allowfullscreen=""></iframe>
     </section>
 
-    <footer class="footer">
+    <footer class="footer" id = "footer">
         <div class="container">
             <div class="footer__wrapper">
-                <img src="img/Logo/logoHeader.png" alt="logo">
+                <a href="#promo"><img src="img/Logo/logoHeader.png" alt="logo"></a>
                 <div class="footer__descr">Global Opt - Доставка грузов из Китая в Россию и СНГ</div>
                 <div class="footer__contacts">
                     <div class="footer__label">Есть вопросы?</div>
                     <div class="footer__phone"><a href="tel:89264230100">+7 (926) 423 01 00</a></div>
                 </div>
-                <button class="button">Перезвоните мне</button>
+                <button data-modal = "consultation" class="button">Перезвоните мне</button>
             </div>
             <hr>
             <div class="footer__wrapper">
                 <div class="footer__adress">© 2010 Scratch.com.ua</div>
-                <div class="footer__politics"><a href = "#">Политика конфидециальности</a></div>
+                <div class="footer__politics"><a href = "#footer" data-modal = "button">Политика конфидециальности</a></div>
                 <div class="footer__text">Создание сайта:</div>
                 <img class = "footer__icon" src = "img/Logo/footerLogo.png" alt = "logo">
             </div>
         </div>
     </footer>
 
+    <div class="overlay">
+        <div class="modal" id = "consultation">
+            <div class="modal__close">&times;</div>
+            <h2 class="modal__supheader">Просто заполните форму заявки</h2>
+            <h3 class="modal__subheader">и мы перезвоним вам в течении 10 минут</h3>
+            <form class = "feed-form" action = "#">
+                <input name = "name" placeholder = "Ваше имя" type="text">
+                <input name = "phone" placeholder = "Ваш телефон">
+                <input name = "email" required placeholder = "Ваш E-mail" type="email">
+                <button class = "button">заказать консультацию</button>
+            </form>
+        </div>
+    </div>
+
+    <a href="#promo"><img class="scrollup" src = "img/Icons/scrol.png"></a>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src = "js/slick.min.js"></script>
     <script src = "js/wow.min.js"></script>
     <script src = "js/script.js"></script>
 </body>
