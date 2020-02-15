@@ -210,11 +210,11 @@
             <h2 class="consultation__header">Заказать бесплатную консультацию</h2>
             <img class = "consultation__icon" src="img/Icons/consultationIcon.png" alt="Icon">
             <form class = consultation__form action = "#">
-                <input name = "name" required placeholder = "Ваше имя..." type="text">
+                <input name = "name" minlenght = "2" maxlength = "3-" required placeholder = "Ваше имя..." type="text">
                 <input name = "phone" required placeholder = "Ваш номер телефона...">
                 <input name = "email" required placeholder = "Ваш e-mail" type="email">
+                <button class = "button">Отправить заявку</button>
             </form>
-            <button class = "button">Отправить заявку</button>
         </div>
     </section>
 
@@ -314,12 +314,12 @@
                 </div>
                 <div class="feedback__elements">
                     <form class = feedback__form action = "#">
-                        <input name = "name" required placeholder = "Ваше имя..." type="text">
+                        <input name = "name" minlength = "2" maxlength = "30" required placeholder = "Ваше имя..." type="text">
                         <input name = "phone" required placeholder = "Ваш номер телефона...">
                         <input name = "email" required placeholder = "Ваш e-mail" type="email">
-                        <textarea class = "feedback__textarea" name="textarea" placeholder = "Сообщение..."></textarea>
+                        <textarea class = "feedback__textarea" required minlength = "10" name="textarea" placeholder = "Сообщение..."></textarea>
+                        <button class="button">Отправить заявку</button>
                     </form>
-                    <button class="button">Отправить заявку</button>
                 </div>
             </div>
         </div>
@@ -356,8 +356,8 @@
             <h2 class="modal__supheader">Просто заполните форму заявки</h2>
             <h3 class="modal__subheader">и мы перезвоним вам в течении 10 минут</h3>
             <form class = "feed-form" action = "#">
-                <input name = "name" placeholder = "Ваше имя" type="text">
-                <input name = "phone" placeholder = "Ваш телефон">
+                <input name = "name" required placeholder = "Ваше имя" type="text" minlength = "2" maxlength = "30">
+                <input name = "phone" required placeholder = "Ваш телефон">
                 <input name = "email" required placeholder = "Ваш E-mail" type="email">
                 <button class = "button">заказать консультацию</button>
             </form>
@@ -370,6 +370,7 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src = "js/slick.min.js"></script>
     <script src = "js/wow.min.js"></script>
+    <script src = "js/jquery.maskedinput.min.js"></script>
     <script src = "js/script.js"></script>
 </body>
 </html>
