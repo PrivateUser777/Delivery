@@ -39,6 +39,21 @@ $(document).ready(function(){
     });
 
     $('input[name=phone]').mask("+7 (999) 999-99-99");
+
+    const headerItems = document.querySelector('.header__items');
+    const headerItem = document.querySelectorAll('.header__item');
+    const hamburger = document.querySelector('.hamburger');
+
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('hamburger_active');
+        headerItems.classList.toggle('header__items_active');
+    });
+    headerItem.forEach(item => {
+        item.addEventListener('click', () => {
+            hamburger.classList.toggle('hamburger_active');
+            headerItems.classList.toggle('header__items_active');
+        });
+    });
 });
 
 

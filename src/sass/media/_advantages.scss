@@ -1,0 +1,37 @@
+@media ( max-width:  991px){
+    .advantages{
+        &__item{
+            width: 370px;
+        }
+    }
+}
+@media ( max-width:  767px){
+    .advantages{
+        &__item{
+            width: 80%;
+        }
+    }
+}
+@media ( max-width:  767px){
+    .advantages{
+        &__header{
+            font-size: 23px;
+            line-height: 27px;
+        }
+        &__item{
+            width: 90%;
+            img{
+                width: 50px;
+            }
+        }
+    }
+}
+@media ( max-width:  380px){
+    .advantages{
+        padding-top: 40px;
+        &__header{
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
+}

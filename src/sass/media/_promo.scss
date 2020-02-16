@@ -1,0 +1,132 @@
+@media ( max-width:  1200px){
+    .promo{
+        &__headerSup{
+            font-size: 60px;
+        }
+        &__headerSub{
+            font-size: 35px;
+        }
+        &__descr{
+            font-size: 15px;
+            width: 225px;
+        }
+        @keyframes promo-hr{
+            from{
+                width: 400px;
+            }
+            50%{
+                width: 50px;
+            }
+            to{
+                width: 400px;
+            }
+        }
+    }
+}
+@media ( max-width:  991px){
+    .promo{
+        min-height: 0;
+        &__label{
+            display: none;
+        }
+        &__headerSup{
+            margin-top: 90px;
+            font-size: 50px;
+        }
+        &__headerSub{
+            margin-top: 30px;
+        }
+        &__descr{
+            width: 170px;
+            font-size: 12px;
+        }
+        &__wrapper{
+            align-items: baseline;
+        }
+        hr{
+            margin: 35px 0;
+        }
+        img{
+            width: 50px;
+        }
+        .button{
+            margin-top: 60px;
+        }
+    }
+}
+@media ( max-width:  767px){
+    .promo{
+        &__headerSup{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        &__headerSub{
+            font-size: 25px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        @keyframes promo-hr{
+            from{
+                width: 250px;
+            }
+            50%{
+                width: 20px;
+            }
+            to{
+                width: 250px;
+            }
+        }
+        &__wrapper{
+            display: none;
+        }
+    }
+}
+@media ( max-width:  580px){
+    .promo{
+        &__headerSup{
+            font-size: 35px;
+            line-height: 40px;
+        }
+        &__headerSub{
+            font-size: 20px;
+            line-height: 25px;
+        }
+        @keyframes promo-hr{
+            from{
+                width: 150px;
+            }
+            50%{
+                width: 20px;
+            }
+            to{
+                width: 150px;
+            }
+        }
+        &__wrapper{
+            display: none;
+        }
+    }
+}
+@media ( max-width:  380px){
+    .promo{
+        padding-bottom: 40px;
+        &__headerSup{
+            font-size: 30px;
+            line-height: 35px;
+        }
+        @keyframes promo-hr{
+            from{
+                width: 120px;
+            }
+            50%{
+                width: 10px;
+            }
+            to{
+                width: 120px;
+            }
+        }
+        hr{
+            margin: 15px 0 15px 0;
+        }
+    }
+}

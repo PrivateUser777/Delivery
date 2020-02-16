@@ -1,6 +1,8 @@
 .header{
     display: flex;
     align-items: center;
+    justify-content: center;
+    position: relative;
     img{
         width: 96px;
         animation-name: header-logo;
@@ -58,5 +60,6 @@
     .button{
         margin-left: 18px;
     }
+
     
 }

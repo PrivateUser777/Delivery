@@ -1,0 +1,108 @@
+@media ( max-width:  1200px){
+    .description{
+        &__wrapper{
+            justify-content: space-evenly;
+        }
+        &__item{
+            width: 300px;
+        }
+    }
+}
+@media ( max-width:  991px){
+    .description{
+        &__headerSub{
+            br{
+                display: none;
+            }
+            margin: 0 10px;
+        }
+        &__item{
+            width: 230px;
+        }
+        &__header{
+            font-size: 17px;
+        }
+    }
+}
+@media ( max-width:  767px){
+    .description{
+        &__headerSup{
+            font-size: 23px;
+        }
+        &__headerSub{
+            font-size: 18px;
+        }
+        hr{
+            width: 500px;
+        }
+        @keyframes line-hr{
+            from{
+                width: 500px;
+            }
+            50%{
+                width: 0;
+            }
+            to{
+                width: -500px;
+            }
+        }
+        &__item{
+            width: 170px;
+        }
+        &__descr{
+            font-size: 13px;
+        }
+    }
+}
+@media ( max-width:  580px){
+    .description{
+        &__headerSup{
+            margin: 0 10px;
+        }
+        &__item{
+            width: 80%;
+        }
+        &__wrapper{
+            flex-wrap: wrap;
+        }
+        hr{
+            width: 300px;
+        }
+        @keyframes line-hr{
+            from{
+                width: 300px;
+            }
+            50%{
+                width: 0;
+            }
+            to{
+                width: -300px;
+            }
+        }
+        &__item{
+            margin-bottom: 35px;
+            &:last-child{
+                margin-bottom: 0;
+            }
+        }
+        &__header{
+            margin-top: 15px;
+        }
+        &__descr{
+            margin-top: 5px;
+        }
+    }
+}
+@media ( max-width:  380px){
+    .description{
+        &__headerSup{
+            font-size: 18px;
+        }
+        &__headerSub{
+            font-size: 15px;
+        }
+        &__item{
+            width: 90%;
+        }
+    }
+}

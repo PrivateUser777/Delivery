@@ -2,6 +2,7 @@
     min-height: 680px;
     background: url('../img/Fons/promoFon.png') center (center/cover) no-repeat;
     padding: 23px 0 82px 0;
+    position: relative;
     &__label{
         margin-top: 9px;
         color: #ffffff;
@@ -53,7 +54,7 @@
     &__wrapper{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: baseline;
     }
     &__item{
         display: flex;
