@@ -1,0 +1,33 @@
+@media(max-width: 767px){
+    .modal{
+        width: 300px;
+        padding: 38px 0 40px 0;
+    }
+    .feed-form{
+        width: 300px;
+        
+        input{
+            width: 90%;
+        }
+    }
+}
+@media(max-width: 580px){
+    .modal{
+        padding: 20px 0;
+        width: 250px;
+        min-height: 100px;
+        &__supheader{
+            font-size: 15px;
+        }
+        &__subheader{
+            font-size: 11px;
+        }
+    }
+    .feed-form{
+        width: 250px;
+
+        input{
+            height: 40px;
+        }
+    }
+}
