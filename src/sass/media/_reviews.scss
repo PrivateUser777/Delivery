@@ -3,6 +3,10 @@
         &__text{
             width: 90%;
         }
+        &__headerSub{
+            font-size: 20px;
+            margin: 0 10px;
+        }
     }
 }
 @media (max-width: 767px){
@@ -25,5 +29,57 @@
             font-size: 17px;
             margin: 0 15px;
         }
+    }
+    .slick-next{
+        top: 24%;
+        right: 36%;
+    }
+    .slick-prev{
+        top: 24%;
+        left: 36%;
+    }
+}
+@media (max-width: 580px){
+    .reviews{
+        hr{
+            width: 300px;
+        }
+        @keyframes line-hr{
+            from{
+                width: 300px;
+            }
+            50%{
+                width: 0;
+            }
+            to{
+                width: -300px;
+            }
+        }
+        &__headerSup{
+            font-size: 20px;
+        }
+        &__headerSub{
+            font-size: 15px;
+            line-height: 25px;
+            
+        }
+    }
+    .slick-next{
+        top: 19%;
+        right: 29%;
+    }
+    .slick-prev{
+        top: 19%;
+        left: 29%;
+    }
+}
+@media (max-width: 380px){
+    .slick-next{
+        top: 16%;
+        right: 24%;
+    }
+    .slick-prev{
+        top: 16%;
+        left: 24%;
     }
 }

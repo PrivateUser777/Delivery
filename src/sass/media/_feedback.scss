@@ -1,0 +1,32 @@
+@media (max-width: 1200px){
+    .feedback{
+        &__wrapper{
+            width: 90%;
+        }
+    }
+}
+@media (max-width: 767px){
+    .feedback{
+        &__form{
+            input{
+                width: 70%;
+                margin-bottom: 10px;
+            }
+        }
+        &__textarea{
+            width: 70%;
+        }
+    }
+}
+@media (max-width: 580px){
+    .feedback{
+        &__form{
+            input{
+                width: 90%;
+            }
+        }
+        &__textarea{
+            width: 90%;
+        }
+    }
+}
