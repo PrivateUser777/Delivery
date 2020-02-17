@@ -1,0 +1,29 @@
+@media (max-width: 991px){
+    .reviews{
+        &__text{
+            width: 90%;
+        }
+    }
+}
+@media (max-width: 767px){
+    .reviews{
+        hr{
+            width: 550px;
+        }
+        @keyframes line-hr{
+            from{
+                width: 550px;
+            }
+            50%{
+                width: 0;
+            }
+            to{
+                width: -550px;
+            }
+        }
+        &__headerSub{
+            font-size: 17px;
+            margin: 0 15px;
+        }
+    }
+}

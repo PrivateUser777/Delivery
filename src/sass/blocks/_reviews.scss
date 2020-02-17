@@ -41,14 +41,16 @@
         font-weight: 700;
         margin-top: 19px;
     }
-    &__taext{
+    &__text{
+        margin-left: 10px;
+        margin-right: 10px;
         margin: 0 auto;
         text-align: justify;
         color: #3a3a3a;
         font-size: 14px;
         font-weight: 300;
         margin-top: 10px;
-        width: 600px;
+        width: 80%;
         text-align: center;
     }
 }
